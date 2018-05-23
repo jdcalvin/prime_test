@@ -14,6 +14,6 @@ module PrimeTest
     table.rows.each do |row|
       puts row
     end
-
+    return nil
   end
 end
