@@ -7,7 +7,6 @@ module PrimeTest
       validate_data!
     end
 
-  
     def rows
       max_size = table_data.flatten.map(&:to_s).max_by(&:length).size
       r = table_data.map do |row|

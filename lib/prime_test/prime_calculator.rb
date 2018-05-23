@@ -10,6 +10,7 @@ module PrimeTest
         results << i if prime?(i)
         first_n(n, i+1, results)
       end
+
       results
     end
 
@@ -22,6 +23,7 @@ module PrimeTest
         break if p*p > max
         (p*p).step(max, p) { |m| list[m] = nil }
       end
+      
       list.compact
     end
 

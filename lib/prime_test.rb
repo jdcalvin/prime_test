@@ -3,7 +3,6 @@ require 'prime_test/product_matrix'
 require 'prime_test/terminal_table'
 
 module PrimeTest
-
   def self.print_table(n)
     return if n.to_i == 0 
     primes_array = PrimeCalculator.first_n(n)

@@ -4,6 +4,7 @@ Project is primarily intended as a working template for how to create and publis
 
 
 ### Gem Example Installation/Usage
+Created using ruby 2.3.5
 
 CLI tool prints n amount of starting prime numbers to a multiplication table in terminal. If not specified, default amount is 10
 
@@ -11,7 +12,7 @@ CLI tool prints n amount of starting prime numbers to a multiplication table in 
 gem install prime_test
 prime_test <n>
 ````
-Output:
+Default output prints first 10 prime numbers:
 ````
 ___________________________________________________________________
 |     |   2 |   3 |   5 |   7 |  11 |  13 |  17 |  19 |  23 |  29 |

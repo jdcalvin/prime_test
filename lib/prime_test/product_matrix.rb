@@ -1,5 +1,4 @@
 module PrimeTest
-
   class ProductMatrix
     attr_reader :list
 
