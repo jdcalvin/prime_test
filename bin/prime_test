@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'prime_test'
+PrimeTest.print_table(ARGV[0] || 10)
